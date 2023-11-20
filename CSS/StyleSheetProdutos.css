@@ -1,0 +1,104 @@
+﻿/* StyleSheet.css */
+
+body {
+    color: #808080; /* Alterado para preto para garantir contraste */
+    background-color: #333; /* Alterado para branco para garantir contraste */
+}
+
+/* Outros estilos específicos do Bootstrap ou personalizados podem ser adicionados aqui */
+
+.produtos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.produtos-box {
+    background-color: #000; /* Cor de fundo para a caixa de produtos */
+    color: #FFF; /* Cor do texto dentro da caixa de produtos */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+    /* Estilos específicos para as imagens dos produtos */
+    .produtos-box img {
+        max-width: 200px;
+    }
+
+    /* Estilos específicos para o texto dentro da caixa de produtos */
+    .produtos-box h3,
+    .produtos-box p {
+        color: #FFF; /* Cor do texto */
+    }
+
+/* Estilo básico para o botão Adicionar ao Carrinho */
+    .botao {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+    /* Estilo de hover para destacar quando o mouse passa sobre o botão */
+    .botao:hover {
+        background-color: #45a049; /* Altera a cor de fundo no hover */
+    }
+
+#carrinhoSection {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px; /* ajuste a largura conforme necessário */
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+#conteudoPrincipal {
+    margin-top: 80px; /* ajuste conforme necessário para evitar a sobreposição com a seção de carrinho */
+    padding: 20px;
+}
+
+#carrinhoSection {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 27%;
+    margin: auto;
+}
+
+/* Estilo para a tabela do carrinho */
+#Table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    #Table1 th, #Table1 td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    #Table1 th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+/* Estilo para o total do carrinho */
+#totalCarrinho {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo para as linhas alternadas da tabela do carrinho */
+#Table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

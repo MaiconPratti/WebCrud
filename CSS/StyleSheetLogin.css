@@ -1,0 +1,27 @@
+﻿
+body {
+    color: #FFF; /* Cor do texto do corpo */
+    background-color: #333; /* Cor de fundo do corpo */
+    margin: 0; /* Removido o margin padrão do body */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.dark-box {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; /* Largura máxima da caixa */
+    width: 100%; /* Ocupa 100% da largura disponível */
+}
+
+/* Outros estilos específicos do Bootstrap ou personalizados podem ser adicionados aqui */
+.title{
+    color:#0d6efd;
+}

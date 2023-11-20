@@ -1,0 +1,69 @@
+﻿/* estilos.css */
+
+body {
+    color: #FFF; /* Cor do texto do corpo */
+    background-color: #333; /* Cor de fundo do corpo */
+    margin: 0; /* Removido o margin padrão do body */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.dark-box {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; /* Largura máxima da caixa */
+    width: 100%; /* Ocupa 100% da largura disponível */
+}
+
+/* Adicione estilos específicos para a página de cadastro abaixo */
+#nome,
+#cpfCnpj,
+#email,
+#senha,
+#razaoSocial,
+#nomeFantasia,
+#cnpj,
+#comissao {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox-group label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.checkbox-group input[type="radio"] {
+    margin: 0;
+}
+
+.title {
+    color: #0d6efd;
+}
+
+.botao {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+    /* Estilo de hover para destacar quando o mouse passa sobre o botão */
+    .botao:hover {
+        background-color: #45a049; /* Altera a cor de fundo no hover */
+    }

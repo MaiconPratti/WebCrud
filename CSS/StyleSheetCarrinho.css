@@ -1,0 +1,66 @@
+﻿/* StyleSheetCarrinho.css */
+body {
+    color: #808080; /* Alterado para preto para garantir contraste */
+    background-color: #333; /* Alterado para branco para garantir contraste */
+}
+/* Estilos específicos para a tabela do carrinho */
+#divCarrinho table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#divCarrinho th, #divCarrinho td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#divCarrinho th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilo para o total do carrinho */
+#divCarrinho .total-carrinho {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo para as linhas alternadas da tabela do carrinho */
+#divCarrinho table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para o botão "Confirmar Compra" */
+#divCarrinho .botao {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+    /* Estilo de hover para destacar quando o mouse passa sobre o botão */
+    #divCarrinho .botao:hover {
+        background-color: #45a049; /* Altera a cor de fundo no hover */
+    }
+
+/* Estilo básico para o botão Adicionar ao Carrinho */
+.botao {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+    /* Estilo de hover para destacar quando o mouse passa sobre o botão */
+    .botao:hover {
+        background-color: #45a049; /* Altera a cor de fundo no hover */
+    }
